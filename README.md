@@ -30,13 +30,13 @@ The following tasks were completed to meet the criteria:
 
 ## Screenshot of the Website
 
-![screenshot of ]()
+![screenshot of work-day-scheduler](./assets/images/work-day-scheduler-image.png)
 
 ## Links
 
-Deployed Website Link: []()
+Deployed Website Link: [https://rhwlffk1028.github.io/work-day-scheduler/](https://rhwlffk1028.github.io/work-day-scheduler/)
 
-Code Repository Link: []()
+Code Repository Link: [https://github.com/rhwlffk1028/work-day-scheduler](https://github.com/rhwlffk1028/work-day-scheduler)
 
 > **Note**: Use the first link above to access the website. By clicking the deployed webiste link, you will be directed to the web browser and it will be viewable.<br>
 > **Note**: Use the second link above to access the repository where the html, css, and image files are live.
