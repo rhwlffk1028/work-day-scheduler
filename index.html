@@ -23,18 +23,245 @@
   </head>
 
   <body>
-    <header class="jumbotron">
-      <h1 class="display-3">Work Day Scheduler</h1>
-      <p class="lead">A simple calendar app for scheduling your work day</p>
+    <header class="jumbotron bg-secondary">
+      <h1 class="display-3 text-light">Work Day Scheduler</h1>
+      <p class="lead text-light">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
+
     <div class="container">
-      <div>
-        
+      <div class="input-group input-group-lg mb-1" data-hour="9">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="9Am"></span>
+        </div>
+
+        <input type="text" class="form-control input9" id="textArea9Am">
+
+        <button class="btn saveBtn" id="btn9Am">
+          <i class="fas fa-save"></i>
+        </button>
       </div>
+
+      <div class="input-group input-group-lg mb-1" data-hour="10">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="10Am"></span>
+        </div>
+
+        <input type="text" class="form-control input10" id="textArea10Am">
+
+        <button class="btn saveBtn" id="btn10Am">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+
+      <div class="input-group input-group-lg mb-1" data-hour="11">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="11Am"></span>
+        </div>
+
+        <input type="text" class="form-control input11" id="textArea11Am">
+
+        <button class="btn saveBtn" id="btn11Am">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+
+      <div class="input-group input-group-lg mb-1" data-hour="12">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="12Pm"></span>
+        </div>
+
+        <input type="text" class="form-control input12" id="textArea12Pm">
+
+        <button class="btn saveBtn" id="btn12Pm">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+
+      <div class="input-group input-group-lg mb-1" data-hour="13">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="1Pm"></span>
+        </div>
+
+        <input type="text" class="form-control input13" id="textArea1Pm">
+
+        <button class="btn saveBtn" id="btn1Pm">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+
+      <div class="input-group input-group-lg mb-1" data-hour="14">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="2Pm"></span>
+        </div>
+
+        <input type="text" class="form-control input14" id="textArea2Pm">
+
+        <button class="btn saveBtn" id="btn2Pm">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+
+      <div class="input-group input-group-lg mb-1" data-hour="15">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="3Pm"></span>
+        </div>
+
+        <input type="text" class="form-control input15" id="textArea3Pm">
+
+        <button class="btn saveBtn" id="btn3Pm">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+
+      <div class="input-group input-group-lg mb-1" data-hour="16">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="4Pm"></span>
+        </div>
+
+        <input type="text" class="form-control input16" id="textArea4Pm">
+
+        <button class="btn saveBtn" id="btn4Pm">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+
+      <div class="input-group input-group-lg mb-1" data-hour="17">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="5Pm"></span>
+        </div>
+
+        <input type="text" class="form-control input17" id="textArea5Pm">
+
+        <button class="btn saveBtn" id="btn5Pm">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+          
     </div>
+
+
+    <!-- <div class="container mx-auto"> -->
+        <!-- row for 9 AM -->
+        <!-- <div class="row row-eq-height text-center">
+          <div class="column-sm">
+            <span id="9Am"></span>
+          </div>
+          <div class="column-sm">
+            <textarea class="form-control" id="textArea9Am" col="1" rows="3"></textarea>
+          </div>
+          <button class="btn saveBtn column-sm">
+            <i class="fas fa-save"></i>
+          </button>
+        </div> -->
+
+        <!-- row for 10 AM -->
+        <!-- <div class="row text-center">
+          <div class="column-sm">
+            <span id="10Am"></span>
+          </div>
+          <div class="column-sm">
+            <textarea class="form-control" id="textArea10Am" col="1" rows="3"></textarea>
+          </div>
+          <button class="btn saveBtn column-sm">
+            <i class="fas fa-save"></i>
+          </button>
+        </div> -->
+
+        <!-- row for 11 AM -->
+        <!-- <div class="row text-center">
+          <div>
+            <span id="11Am"></span>
+          </div>
+          <div>
+            <textarea class="form-control" id="textArea11Am" col="1" rows="3"></textarea>
+          </div>
+          <button class="btn saveBtn column-sm">
+            <i class="fas fa-save"></i>
+          </button>
+        </div> -->
+
+        <!-- row for 12 PM -->
+        <!-- <div class="row text-center">
+          <div class="column-sm">
+            <span id="12Pm"></span>
+          </div>
+          <div class="column-sm">
+            <textarea class="form-control" id="textArea12Pm" col="1" rows="3"></textarea>
+          </div>
+          <button class="btn saveBtn column-sm">
+            <i class="fas fa-save"></i>
+          </button>
+        </div> -->
+
+        <!-- row for 1 PM -->
+        <!-- <div class="row text-center">
+          <div class="column-sm">
+            <span id="1Pm"></span>
+          </div>
+          <div class="column-sm">
+            <textarea class="form-control" id="textArea2Pm" col="1" rows="3"></textarea>
+          </div>
+          <button class="btn saveBtn column-sm">
+            <i class="fas fa-save"></i>
+          </button>
+        </div> -->
+
+        <!-- row for 2 PM -->
+        <!-- <div class="row text-center">
+          <div class="column-sm">
+            <span id="2Pm"></span>
+          </div>
+          <div class="column-sm">
+            <textarea class="form-control" id="textArea5Pm" col="1" rows="3"></textarea>
+          </div>
+          <button class="btn saveBtn column-sm">
+            <i class="fas fa-save"></i>
+          </button>
+        </div> -->
+
+        <!-- row for 3 PM -->
+        <!-- <div class="row text-center">
+          <div class="column-sm">
+            <span id="3Pm"></span>
+          </div>
+          <div class="column-sm">
+            <textarea class="form-control" id="textArea3Pm" col="1" rows="3"></textarea>
+          </div>
+          <button class="btn saveBtn column-sm">
+            <i class="fas fa-save"></i>
+          </button>
+        </div> -->
+
+        <!-- row for 4 PM -->
+        <!-- <div class="row text-center">
+          <div class="column-sm">
+            <span id="4Pm"></span>
+          </div>
+          <div class="column-sm">
+            <textarea class="form-control" id="textArea4Pm" col="1" rows="3"></textarea>
+          </div>
+          <button class="btn saveBtn column-sm">
+            <i class="fas fa-save"></i>
+          </button>
+        </div> -->
+
+        <!-- row for 5 PM -->
+        <!-- <div class="row text-center">
+          <div class="column-sm">
+            <span id="5Pm"></span>
+          </div>
+          <div class="column-sm">
+            <textarea class="form-control" id="textArea5Pm" col="1" rows="3"></textarea>
+          </div>
+          <button class="btn saveBtn column-sm">
+            <i class="fas fa-save"></i>
+          </button>
+        </div>
+    </div> -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
