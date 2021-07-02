@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Bootstrap link -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -23,243 +24,143 @@
   </head>
 
   <body>
+    <!-- This is header with jumbotron -->
     <header class="jumbotron bg-secondary">
       <h1 class="display-3 text-light">Work Day Scheduler</h1>
       <p class="lead text-light">A simple calendar app for scheduling your work day</p>
+      <!-- The current day is gonna be displayed here -->
       <p id="currentDay" class="lead"></p>
     </header>
-
+    <!-- This acts as a big table -->
     <div class="container">
+      <!-- Creates a row with 3 columns -->
       <div class="input-group input-group-lg mb-1" data-hour="9">
+        <!-- timeblock -->
         <div class="input-group-prepend">
           <span class="input-group-text" id="9Am"></span>
         </div>
-
+        <!-- textarea -->
         <input type="text" class="form-control input9" id="textArea9Am">
-
+        <!-- save button -->
         <button class="btn saveBtn" id="btn9Am">
           <i class="fas fa-save"></i>
         </button>
       </div>
 
+      <!-- Creates a row with 3 columns -->
       <div class="input-group input-group-lg mb-1" data-hour="10">
+        <!-- timeblock -->
         <div class="input-group-prepend">
           <span class="input-group-text" id="10Am"></span>
         </div>
-
+        <!-- textarea -->
         <input type="text" class="form-control input10" id="textArea10Am">
-
+        <!-- save button -->
         <button class="btn saveBtn" id="btn10Am">
           <i class="fas fa-save"></i>
         </button>
       </div>
 
+      <!-- Creates a row with 3 columns -->
       <div class="input-group input-group-lg mb-1" data-hour="11">
+        <!-- timeblock -->
         <div class="input-group-prepend">
           <span class="input-group-text" id="11Am"></span>
         </div>
-
+        <!-- textarea -->
         <input type="text" class="form-control input11" id="textArea11Am">
-
+        <!-- save button -->
         <button class="btn saveBtn" id="btn11Am">
           <i class="fas fa-save"></i>
         </button>
       </div>
 
+      <!-- Creates a row with 3 columns -->
       <div class="input-group input-group-lg mb-1" data-hour="12">
+        <!-- timeblock -->
         <div class="input-group-prepend">
           <span class="input-group-text" id="12Pm"></span>
         </div>
-
+        <!-- textarea -->
         <input type="text" class="form-control input12" id="textArea12Pm">
-
+        <!-- save button -->
         <button class="btn saveBtn" id="btn12Pm">
           <i class="fas fa-save"></i>
         </button>
       </div>
 
+      <!-- Creates a row with 3 columns -->
       <div class="input-group input-group-lg mb-1" data-hour="13">
+        <!-- timeblock -->
         <div class="input-group-prepend">
           <span class="input-group-text" id="1Pm"></span>
         </div>
-
+        <!-- textarea -->
         <input type="text" class="form-control input13" id="textArea1Pm">
-
+        <!-- save button -->
         <button class="btn saveBtn" id="btn1Pm">
           <i class="fas fa-save"></i>
         </button>
       </div>
 
+      <!-- Creates a row with 3 columns -->
       <div class="input-group input-group-lg mb-1" data-hour="14">
+        <!-- timeblock -->
         <div class="input-group-prepend">
           <span class="input-group-text" id="2Pm"></span>
         </div>
-
+        <!-- textarea -->
         <input type="text" class="form-control input14" id="textArea2Pm">
-
+        <!-- save button -->
         <button class="btn saveBtn" id="btn2Pm">
           <i class="fas fa-save"></i>
         </button>
       </div>
 
+      <!-- Creates a row with 3 columns -->
       <div class="input-group input-group-lg mb-1" data-hour="15">
+        <!-- timeblock -->
         <div class="input-group-prepend">
           <span class="input-group-text" id="3Pm"></span>
         </div>
-
+        <!-- textarea -->
         <input type="text" class="form-control input15" id="textArea3Pm">
-
+        <!-- save button -->
         <button class="btn saveBtn" id="btn3Pm">
           <i class="fas fa-save"></i>
         </button>
       </div>
 
+      <!-- Creates a row with 3 columns -->
       <div class="input-group input-group-lg mb-1" data-hour="16">
+        <!-- timeblock -->
         <div class="input-group-prepend">
           <span class="input-group-text" id="4Pm"></span>
         </div>
-
+        <!-- textarea -->
         <input type="text" class="form-control input16" id="textArea4Pm">
-
+        <!-- save button -->
         <button class="btn saveBtn" id="btn4Pm">
           <i class="fas fa-save"></i>
         </button>
       </div>
 
+      <!-- Creates a row with 3 columns -->
       <div class="input-group input-group-lg mb-1" data-hour="17">
+        <!-- timeblock -->
         <div class="input-group-prepend">
           <span class="input-group-text" id="5Pm"></span>
         </div>
-
+        <!-- textarea -->
         <input type="text" class="form-control input17" id="textArea5Pm">
-
+        <!-- save button -->
         <button class="btn saveBtn" id="btn5Pm">
           <i class="fas fa-save"></i>
         </button>
-      </div>
-          
+      </div>     
     </div>
 
-
-    <!-- <div class="container mx-auto"> -->
-        <!-- row for 9 AM -->
-        <!-- <div class="row row-eq-height text-center">
-          <div class="column-sm">
-            <span id="9Am"></span>
-          </div>
-          <div class="column-sm">
-            <textarea class="form-control" id="textArea9Am" col="1" rows="3"></textarea>
-          </div>
-          <button class="btn saveBtn column-sm">
-            <i class="fas fa-save"></i>
-          </button>
-        </div> -->
-
-        <!-- row for 10 AM -->
-        <!-- <div class="row text-center">
-          <div class="column-sm">
-            <span id="10Am"></span>
-          </div>
-          <div class="column-sm">
-            <textarea class="form-control" id="textArea10Am" col="1" rows="3"></textarea>
-          </div>
-          <button class="btn saveBtn column-sm">
-            <i class="fas fa-save"></i>
-          </button>
-        </div> -->
-
-        <!-- row for 11 AM -->
-        <!-- <div class="row text-center">
-          <div>
-            <span id="11Am"></span>
-          </div>
-          <div>
-            <textarea class="form-control" id="textArea11Am" col="1" rows="3"></textarea>
-          </div>
-          <button class="btn saveBtn column-sm">
-            <i class="fas fa-save"></i>
-          </button>
-        </div> -->
-
-        <!-- row for 12 PM -->
-        <!-- <div class="row text-center">
-          <div class="column-sm">
-            <span id="12Pm"></span>
-          </div>
-          <div class="column-sm">
-            <textarea class="form-control" id="textArea12Pm" col="1" rows="3"></textarea>
-          </div>
-          <button class="btn saveBtn column-sm">
-            <i class="fas fa-save"></i>
-          </button>
-        </div> -->
-
-        <!-- row for 1 PM -->
-        <!-- <div class="row text-center">
-          <div class="column-sm">
-            <span id="1Pm"></span>
-          </div>
-          <div class="column-sm">
-            <textarea class="form-control" id="textArea2Pm" col="1" rows="3"></textarea>
-          </div>
-          <button class="btn saveBtn column-sm">
-            <i class="fas fa-save"></i>
-          </button>
-        </div> -->
-
-        <!-- row for 2 PM -->
-        <!-- <div class="row text-center">
-          <div class="column-sm">
-            <span id="2Pm"></span>
-          </div>
-          <div class="column-sm">
-            <textarea class="form-control" id="textArea5Pm" col="1" rows="3"></textarea>
-          </div>
-          <button class="btn saveBtn column-sm">
-            <i class="fas fa-save"></i>
-          </button>
-        </div> -->
-
-        <!-- row for 3 PM -->
-        <!-- <div class="row text-center">
-          <div class="column-sm">
-            <span id="3Pm"></span>
-          </div>
-          <div class="column-sm">
-            <textarea class="form-control" id="textArea3Pm" col="1" rows="3"></textarea>
-          </div>
-          <button class="btn saveBtn column-sm">
-            <i class="fas fa-save"></i>
-          </button>
-        </div> -->
-
-        <!-- row for 4 PM -->
-        <!-- <div class="row text-center">
-          <div class="column-sm">
-            <span id="4Pm"></span>
-          </div>
-          <div class="column-sm">
-            <textarea class="form-control" id="textArea4Pm" col="1" rows="3"></textarea>
-          </div>
-          <button class="btn saveBtn column-sm">
-            <i class="fas fa-save"></i>
-          </button>
-        </div> -->
-
-        <!-- row for 5 PM -->
-        <!-- <div class="row text-center">
-          <div class="column-sm">
-            <span id="5Pm"></span>
-          </div>
-          <div class="column-sm">
-            <textarea class="form-control" id="textArea5Pm" col="1" rows="3"></textarea>
-          </div>
-          <button class="btn saveBtn column-sm">
-            <i class="fas fa-save"></i>
-          </button>
-        </div>
-    </div> -->
-
+    <!-- Jquery & Moment JS link -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="script.js"></script>
